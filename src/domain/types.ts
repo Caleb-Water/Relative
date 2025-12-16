@@ -1,4 +1,4 @@
-// Defining Global Data Types
+// Defining Domain Data Types
 // Used By; ./TagModel ./NodeModel ./LinkModel ./ViewModel ./GraphModel 
 
 // ID

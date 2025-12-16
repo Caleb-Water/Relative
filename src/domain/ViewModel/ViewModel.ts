@@ -9,13 +9,13 @@ export interface ViewData {
 }
 
 export interface ViewLocusMap {
-    nodelocusbyIds: Record<NodeId,NodeLocus>
+    nodelocusbyIds?: Record<NodeId,NodeLocus>
 }
 
 export interface ViewModel {
     id: ViewId;
     name: string;
     contents?: string;
-    data?:  ViewData;
-    locusmap?: ViewLocusMap;
+    data: ViewData;
+    locusmap: ViewLocusMap;
 }
