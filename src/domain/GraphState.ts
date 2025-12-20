@@ -19,9 +19,9 @@ interface GraphData {
 
 export interface GraphState {
     graph: GraphData;
-    tags?: Record<TagId, TagModel>;
-    nodes?: Record<NodeId, NodeModel>;
-    links?: Record<LinkId, LinkModel>;
-    views?: Record<ViewId, ViewModel>;
+    tags: Record<TagId, TagModel>;
+    nodes: Record<NodeId, NodeModel>;
+    links: Record<LinkId, LinkModel>;
+    views: Record<ViewId, ViewModel>;
 };
 

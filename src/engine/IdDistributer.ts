@@ -2,7 +2,7 @@
 
 import { v4 } from 'uuid';
 
-export function UUIDv4(): string {
+export function uuidV4(): string {
     return v4();
 }
 

@@ -1,5 +1,6 @@
-// Defining Domain Data Types
-// Used By; ./TagModel ./NodeModel ./LinkModel ./ViewModel ./GraphModel 
+// Global Data Types Definition
+
+// Domain Data Types
 
 // ID
 export type TagId = string;
@@ -18,4 +19,4 @@ export type ViewType = 'M'|'T'
 export interface NodeLocus {
     x: number;
     y: number;
-}
+};
